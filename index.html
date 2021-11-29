@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login-Form</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="nav-icons"><span><img src="mint.png" alt="mint-logo" width="25px"></span><a href="#">Mint</a></li>
+                <li class="nav-icons" ><span cla><img src="inuit.png" alt="quickbooks-logo" width="25px"></span><a href="#">Quickbooks</a></li>
+                <li class="nav-icons" ><span><img src="inuit.png" alt="turbotax-logo" width="25px"></span><a href="#">Turbotax</a></li>
+            </ul>
+        </nav>
+   </header>
+   <main>
+       <div id="form-container">
+          <div id="contain-container">
+             <h1>Create an Intiut account</h1>
+             <p>One account for everything Inuit, include Mint.</p>
+             <p><a href="#">Learn more</a></p>
+             <p>Already have an account?<a href="#"> Sign in</a></p>
+             <form>
+                  <div id="form-group">
+                      <label for="user-mail">Email address
+                        <input type="email" name="user-mail" placeholder="Example@domain.com">
+                      </label> 
+                      <label for="phone-number">Phone (recommended)
+                         <input type="number" name="phone-number" id="phone-number" required>
+                         <p id="sub-text">Standard call,message, or data rates may apply.</p>
+                      </label>
+                      <label for="password">Password
+                         <input type="password" name="password" id="password">
+                      </label>
+                      <button><span><img src="padlock.png" width="25px"></span> Create Account</button>
+                    </div>
+             </form>
+             <div id="form-link">
+                <p>By selecting Create Account, you agree to our <a href="#">Terms</a> and</p>
+                <p>have read and acknowledge our <a href="#">Global Privacy Statement.</a></p>
+             </div>
+          </div>
+            <footer>
+               <p>Invisible reCAPTCHA by Google<a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a></p>
+            </footer>
+        </div>
+   </main>   
+</body>
+</html>
